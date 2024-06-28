@@ -8,12 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-# Personal Website
-
 Hello! I am an incoming M.S. Student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I’ve earned my Bachelor of Engineering degree from [Sichuan University](https://en.scu.edu.cn/) under the supervision of Dr. Qi Lu.
 
 ## Research Interests
-
 - Control System
 - Robotics
 
