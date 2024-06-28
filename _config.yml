@@ -7,13 +7,13 @@
 
 # Site Settings
 locale: "en-US"
-title: "Mohammad Hashemi"
+title: "Nancy Li"
 title_separator: "-"
-name: &name "Mohammad Hashemi"
+name: &name "Nancy Li"
 description: &description "personal description"
-url: https://mohammadhashemii.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://NancyLi02.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "mohammadhashemii/mohammadhashemii.github.io"
+repository: "NancyLi02/NancyLi02.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -78,14 +78,14 @@ analytics:
 
 # Site Author
 author:
-  name: "Mohammad Hashemi"
-  avatar: "profile.png"
-  bio: "Ph.D. Student in CS @ Emory University"
+  name: "Nancy Li"
+  avatar: "profile.jpg"
+  bio: "Master Student in ME @ Georgia Tech"
   location: "Atlanta, Georgia, USA"
   employer:
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar: "https://scholar.google.com/citations?user=LRpJtSQAAAAJ&hl=en"
-  email: "mohammad.hashemi@emory.edu"
+  googlescholar: "https://NancyLi02.github.io"
+  email: "linan200204@outlook.com"
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
@@ -94,13 +94,13 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: "mohammadhashemii"
+  github: "NancyLi02"
   google_plus:
   keybase:
   instagram:
   impactstory:
   lastfm:
-  linkedin: "mohammadhashemi"
+  linkedin:
   orcid:
   pinterest:
   soundcloud:

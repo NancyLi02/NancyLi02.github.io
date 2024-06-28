@@ -8,18 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Ph.D. student in [Computer Science](https://cs.emory.edu/home/) at [Emory University](https://www.emory.edu/home/index.html). Currently, I am working on Graph Neural Networks including their theory foundation, model robustness, and applications under the supervision of Dr. [Wei Jin](http://www.cs.emory.edu/~wjin30//).
-
-My research interests include Deep Learning in particular, and Machine Learning in general, with applications in Graph Learning, and Computer Vision. I am intended to better understand these methods in a principled manner by investigating their underlying mathematics and their practical implications in real life. My research goal is to channel such better theoretical and functional understanding of these new methods towards better practical solutions for real life problems.
+I am a Master student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). 
 
 ## Research Interests
 
-- Machine Learning
-- Graph Neural Networks
-- Computer Vision
-- AI in Healthcare
+- Control System
+- Robotics
 
 ## Education
 
-- Ph.D. in Computer Science, Emory University, (2023 - Present)
-- B.Sc. in Computer Engineering, Shahid Beheshti University, (2018 - 2023)
+- M.S. in Mechanical Engineering, Georgia Tech, (2024 - Present)
+- B.Sc. in Mechanical Engineering, Sichuan University, (2020 - 2024)
