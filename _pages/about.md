@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am an incoming M.S. Student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I’ve earned my Bachelor of Engineering degree from [Sichuan University](https://en.scu.edu.cn/) under the supervision of Dr. Qi Lu.
+Hello! I am an incoming M.S. student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I’ve earned my bachelor's degree in mechanical engineering at [Sichuan University-Pittsburgh Institute (SCUPI)](https://scupi.scu.edu.cn/en/) under the supervision of Dr. Qi Lu.
 
 ## Research Interests
 - Control System
@@ -35,6 +35,12 @@ Hello! I am an incoming M.S. Student in [Mechanical Engineering](https://www.me.
 + Introduced the equation constraint via Lagrange’s equation and converted this problem to an optimization problem
 + Proved the stability of the adaptive algorithm by using Barbara’s Lemma
 + Performed the trajectory simulation on the six-rotor tilt-rotor UAV avoidance singularity problem
+
+# Selected Accomplishments
++ Merit Student, Sichuan University, 2020, 2021, 2022
++ Dean’s List, Sichuan University, 2021, 2022
++ Academic Star, Sichuan University, 2020
++ First Prize of Academic Scholarship, Sichuan University, 2020
 
 # Personal
 
