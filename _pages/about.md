@@ -17,7 +17,7 @@ Hello! I am an incoming M.S. Student in [Mechanical Engineering](https://www.me.
 ## Research Experience
 **Design and Integration of Automatic Reagent Preparation Machine** 
 
-> Huaxi Medical Robot Research Institute **(Leader of this project)** | Sichuan University | <u>***Aug.2023-Present***</u>
+> Huaxi Medical Robot Research Institute **(Leader of this project)** \| Sichuan University <u>***Aug.2023-Present***</u>
 
 + Design specific components of the reagent machine, including the workstation for holding each component, the injection unit, and the cap processing unit
 + Use DH parameters to model the robot arm, enabling precise calculation of its position based on input joint angles
@@ -27,7 +27,7 @@ Hello! I am an incoming M.S. Student in [Mechanical Engineering](https://www.me.
 
 **A Segmented Dynamic Movement Primitives-Based Gait Assistive Strategy for Soft Ankle Exosuit** 
 
-> Huaxi Medical Robot Research Institute | Sichuan University | <u>***Mar.2023-Aug.2023***</u>
+> Huaxi Medical Robot Research Institute Sichuan University <u>***Mar.2023-Aug.2023***</u>
 
 + Learned about the different gait planning algorithms and analyzed the advantages and disadvantages of each one
 + Grasped the DMP gait planning approach and applied it to the soft exoskeleton design
@@ -35,7 +35,7 @@ Hello! I am an incoming M.S. Student in [Mechanical Engineering](https://www.me.
 
 **Singularity Free Dynamic Control Allocation for a Tilt-rotor Multirotor Unmanned Aerial Vehicles** 
 
-> Supervised by Prof. Qi Lu| Sichuan University | <u>***Jan.2022-Mar.2023***</u>
+> Supervised by Prof. Qi Lu Sichuan University <u>***Jan.2022-Mar.2023***</u>
 
 + Built the barrier function to convert the inequality constraint into an equation constraint to circumvent the singularity problem
 + Introduced the equation constraint via Lagrange’s equation and converted this problem to an optimization problem
