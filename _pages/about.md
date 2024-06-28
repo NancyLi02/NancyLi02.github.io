@@ -15,7 +15,7 @@ Hello! I am an incoming M.S. student in [Mechanical Engineering](https://www.me.
 - Robotics
 
 ## Research Experience
-**Design and Integration of Automatic Reagent Preparation Machine** Huaxi Medical Robot Research Institute **(Leader of this project)** \| Sichuan University \| Aug.2023-Present
+**Design and Integration of Automatic Reagent Preparation Machine** Huaxi Medical Robot Research Institute **(Leader of this project)** \| Sichuan University \| Aug.2023-Jun.2024
 
 + Design specific components of the reagent machine, including the workstation for holding each component, the injection unit, and the cap processing unit
 + Use DH parameters to model the robot arm, enabling precise calculation of its position based on input joint angles
