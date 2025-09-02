@@ -7,34 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am **Nan (Nancy) Li**, a M.S. student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I've earned my bachelor's degree in mechanical engineering at [Sichuan University-Pittsburgh Institute (SCUPI)](https://scupi.scu.edu.cn/en/) under the supervision of Dr. Qi Lu.
+Hello! I am **Nan Li** <span style="font-family: 'KaiTi', '楷体', serif; font-size: 1.2em;">黎楠</span>, an M.S. student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I am fortunate to be advised by Prof. Ye Zhao in the [LiDAR Lab](https://lab-idar.gatech.edu/). I received my bachelor's degree in Mechanical Engineering from [Sichuan University](https://www.scu.edu.cn/).  
 
-## Background
+My current research focuses on **multi-robot systems**, where I develop scalable and efficient methods to address multi-agent cooperation problems. Now, I am particularly interested in applying **reinforcement learning (RL)** to design task allocation and path planning algorithms for multi-agent systems. I am also exploring how large language models (LLMs) can provide humans with better instructions in multi-robot systems.  
 
-I am passionate about robotics and control systems, with particular interests in multi-robot systems and their applications. My journey in mechanical engineering has led me to explore various aspects of robotics, from theoretical foundations to practical implementations.
-
-## Research Interests
-- **Multi-Robot Systems**: Coordination and control of multiple robotic agents
-- **Control Systems**: Advanced control algorithms and optimization
-- **Robotics**: Design, modeling, and implementation of robotic systems
-- **Unmanned Aerial Vehicles**: Flight dynamics and control allocation
-
-## Education
-
-**Master of Science in Mechanical Engineering** \| Georgia Institute of Technology \| 2024 - Present
-- Focus on Robotics and Control Systems
-- Location: Atlanta, Georgia
-
-**Bachelor of Science in Mechanical Engineering** \| Sichuan University-Pittsburgh Institute \| 2020 - 2024
-- Supervisor: Dr. Qi Lu
-- Graduated with honors
-
-## Selected Accomplishments
-- **Merit Student**, Sichuan University (2020, 2021, 2022)
-- **Dean's List**, Sichuan University (2021, 2022)
-- **Academic Star**, Sichuan University (2020)
-- **First Prize of Academic Scholarship**, Sichuan University (2020)
-
-## Personal Interests
-
-Beyond academics, I enjoy various sports including hiking and outdoor activities. I'm also passionate about debating and engaging in intellectual discussions. I believe in maintaining a balanced lifestyle that combines rigorous academic pursuit with personal enrichment activities.
+🚀 **I plan to apply for Ph.D. programs in Fall 2026.**  If there are opportunities, I would be *very happy* to connect. 🤗
+  
