@@ -7,9 +7,9 @@
 
 # Site Settings
 locale: "en-US"
-title: "Nan (Nancy) Li"
+title: "Nan Li"
 title_separator: "-"
-name: &name "Nan (Nancy) Li"
+name: &name "Nan Li (<span style="font-family: 'KaiTi', '楷体', serif; font-size: 1.2em;">黎楠</span>)"
 description: &description "personal description"
 url: https://NancyLi02.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
@@ -83,10 +83,9 @@ author:
   bio: "M.S. Student in ME @ GT"
   location: "Atlanta, Georgia"
   employer:
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar: "https://NancyLi02.github.io"
-  email: "linan200204@outlook.com"
-  researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
+  email: "nanli02@outlook.com"
+  linkedin: "https://www.linkedin.com/in/nan-li-967034368/"
+  researchgate:
   uri:
   bitbucket:
   codepen:
@@ -100,7 +99,7 @@ author:
   instagram:
   impactstory:
   lastfm:
-  linkedin:
+
   orcid:
   pinterest:
   soundcloud:
