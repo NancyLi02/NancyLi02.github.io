@@ -13,30 +13,57 @@ My current research focuses on **multi-robot systems**, where I develop scalable
 
 🚀 **I plan to apply for Ph.D. programs in Fall 2026.**  If there are opportunities, I would be very happy to connect. 🤗
 
-## 📰 News
+## 📰 News!
 
-<div style="display: grid; gap: 12px; margin-top: 1em;">
+<style>
+.timeline {
+  position: relative;
+  margin: 2em 0;
+  padding-left: 40px;
+  border-left: 3px solid #6a1b9a; /* 紫色竖线 */
+}
+.timeline-item {
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.timeline-item b {
+  color: #6a1b9a; /* 时间点颜色 */
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -9px;
+  background: #6a1b9a;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  margin-top: 6px;
+}
+</style>
 
-<div style="background:#f5f5f5; padding:10px 15px; border-radius:8px;">
-<b>2025.04</b> — Our work on multi-agent task allocation and planning has been accepted by <i>ICRA 2025 Workshop</i>! 🎉 See you in Atlanta!
+<div class="timeline">
+
+<div class="timeline-item">
+  <b>2025.04</b> — Our work on multi-agent task allocation and planning has been accepted by <b>ICRA 2025 Workshop</b>! 🎉 See you in Atlanta!
 </div>
 
-<div style="background:#f5f5f5; padding:10px 15px; border-radius:8px;">
-<b>2024.12</b> — I joined the <i>LiDAR Lab</i>! Hope to conduct exciting work here!
+<div class="timeline-item">
+  <b>2024.12</b> — I joined the <b>LiDAR Lab</b>! Hope to conduct exciting work here!
 </div>
 
-<div style="background:#f5f5f5; padding:10px 15px; border-radius:8px;">
-<b>2024.08</b> — Started my Master’s journey at <i>Georgia Tech</i>!
+<div class="timeline-item">
+  <b>2024.08</b> — Started my Master’s journey at <b>Georgia Tech</b>!
 </div>
 
-<div style="background:#f5f5f5; padding:10px 15px; border-radius:8px;">
-<b>2024.06</b> — Graduated from <i>Sichuan University</i>! 🎓 Valuable memories forever, will miss you guys~
+<div class="timeline-item">
+  <b>2024.06</b> — Graduated from <b>Sichuan University</b>! 🎓 Valuable memories forever, will miss you guys~
 </div>
 
-<div style="background:#f5f5f5; padding:10px 15px; border-radius:8px;">
-<b>2024.04</b> — Accepted by <i>Georgia Tech</i> for Master’s program! Looking forward to new life in GT 🐝 Go Yellow Jackets!
+<div class="timeline-item">
+  <b>2024.04</b> — Accepted by <b>Georgia Tech</b> for Master’s program! Looking forward to new life in GT 🐝 Go Yellow Jackets!
 </div>
 
 </div>
+
 
   

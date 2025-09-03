@@ -21,12 +21,12 @@ author_profile: true
 
 ## Travel and Exploration
 
-Fun Facts About Where I’ve Lived
+Fun Facts About Where I’ve Lived:
 - Qingdao, China 🌊: My hometown by the sea — amazing seafood, cool summers, and unforgettable memories.  
 - Chengdu, China 🌶️: Best food in the world! I fell in love with hotpot while studying at Sichuan University.  
 - Atlanta, United States 🌳: My current city — often called a “forest city” for its trees. Discovered incredible Korean food in Duluth!  
 
-Countries I've Traveled To
+Countries I've Traveled To:
 - United Kingdom ☔: A rainy country, but I had the best weather during my visit — lucky me! Thanks, UK!  
 - Singapore 🔥: Hot hot! And I even won 25 bucks in the casino — unforgettable trip!  
 
