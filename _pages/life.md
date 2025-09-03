@@ -6,8 +6,12 @@ author_profile: true
 ---
 
 ## Hobbies
-Hiking
-Travel
+
+<p align="center">
+  <span style="font-size: 1.2em; margin-right: 1em;">🥾 Hiking</span>
+  <span style="font-size: 1.2em;">🌍 Travel</span>
+</p>
+
 
 
 ## Travel and Exploration
