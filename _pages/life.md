@@ -19,16 +19,82 @@ author_profile: true
 
 
 
-## Travel and Exploration
+## ✈️ Travel and Exploration
 
-Fun Facts About Where I’ve Lived:
-- Qingdao, China 🌊: My hometown by the sea — amazing seafood, cool summers, and unforgettable memories.  
-- Chengdu, China 🌶️: Best food in the world! I fell in love with hotpot while studying at Sichuan University.  
-- Atlanta, United States 🌳: My current city — often called a “forest city” for its trees. Discovered incredible Korean food in Duluth!  
+<style>
+.travel-card {
+  position: relative;
+  border-radius:8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.travel-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+.travel-header {
+  padding:10px 16px;
+  font-size:1.2em;
+  font-weight:700;
+  color:#fff;
+}
+.travel-body {
+  padding:12px 16px;
+  font-size:0.95em;
+  color:#333;
+  background:#fafafa;
+}
+</style>
 
-Countries I've Traveled To:
-- United Kingdom ☔: A rainy country, but I had the best weather during my visit — lucky me! Thanks, UK!  
-- Singapore 🔥: Hot hot! And I even won 25 bucks in the casino — unforgettable trip!  
+### 🌍 Fun Facts About Where I’ve Lived
+<div style="display:grid; gap:16px;">
+
+<div class="travel-card">
+  <div class="travel-header" style="background:#42a5f5;">Qingdao, China 🌊</div>
+  <div class="travel-body">
+    My hometown by the sea — amazing seafood, cool summers, and unforgettable memories.
+  </div>
+</div>
+
+<div class="travel-card">
+  <div class="travel-header" style="background:#ef5350;">Chengdu, China 🌶️</div>
+  <div class="travel-body">
+    Best food in the world! I fell in love with hotpot while studying at Sichuan University.
+  </div>
+</div>
+
+<div class="travel-card">
+  <div class="travel-header" style="background:#66bb6a;">Atlanta, United States 🌳</div>
+  <div class="travel-body">
+    My current city — often called a “forest city” for its trees. Discovered incredible Korean food in Duluth!
+  </div>
+</div>
+
+</div>
+
+---
+
+### 🌏 Countries I've Traveled To
+<div style="display:grid; gap:16px;">
+
+<div class="travel-card">
+  <div class="travel-header" style="background:#ab47bc;">United Kingdom ☔</div>
+  <div class="travel-body">
+    A rainy country, but I had the best weather during my visit — lucky me! Thanks, UK!
+  </div>
+</div>
+
+<div class="travel-card">
+  <div class="travel-header" style="background:#fdd835;">Singapore 🔥</div>
+  <div class="travel-body">
+    Hot hot! And I even won 25 bucks in the casino — unforgettable trip!
+  </div>
+</div>
+
+</div>
+
+
+## Hello, World!
 
 <!-- Masonry Photo Wall -->
 <style>
