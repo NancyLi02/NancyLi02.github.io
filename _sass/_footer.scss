@@ -97,11 +97,11 @@
   display: none !important;
 }
 
-/* 美化版权行 */
 .page__footer-copyright {
-  text-align: center;
-  font-size: $type-size-4;
-  color: $dark-gray; 
-  padding: 1em 0;
+  text-align: left;            /* 左对齐 */
+  font-size: $type-size-7;     /* 比正文小一号 */
+  color: $gray;                /* 浅灰，不会太突出 */
+  padding: 0.5em 0;            /* 保持一点间距 */
 }
+
 
