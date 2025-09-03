@@ -90,3 +90,18 @@
     }
   }
 }
+
+/* 隐藏 footer 的多余部分，只保留版权 */
+.page__footer-follow,
+.page__footer .footer__content {
+  display: none !important;
+}
+
+/* 美化版权行 */
+.page__footer-copyright {
+  text-align: center;
+  font-size: $type-size-4;
+  color: $dark-gray; 
+  padding: 1em 0;
+}
+
