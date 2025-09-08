@@ -17,86 +17,6 @@ author_profile: true
 </p>
 
 
-
-
-## ✈️ Travel and Exploration
-
-<style>
-/* 双栏网格（小屏自动一栏） */
-.travel-grid{
-  display:grid;
-  grid-template-columns:repeat(2, minmax(0,1fr));
-  gap:12px;
-  margin-bottom:20px;
-}
-@media (max-width: 720px){
-  .travel-grid{ grid-template-columns:1fr; }
-}
-
-/* 卡片基础样式 */
-.travel-card{
-  border-radius:10px;
-  padding:12px 14px;
-  transition: box-shadow .25s ease, transform .25s ease;
-}
-.travel-card:hover{
-  box-shadow:0 6px 14px rgba(0,0,0,0.12);
-  transform: translateY(-1px);
-}
-
-/* 文本样式 */
-.travel-card .place{
-  font-size:1.02em;
-  color:#333;
-  margin-bottom:4px;
-}
-.travel-card .fact{
-  color:#555;
-  line-height:1.55;
-}
-</style>
-
-### 🌍 Places I’ve Lived
-
-<div class="travel-grid">
-
-  <div class="travel-card" style="background:#e3f2fd;">
-    <div class="place">Qingdao, China 🌊</div>
-    <div class="fact">My hometown by the sea — amazing seafood, cool summers, and unforgettable memories.</div>
-  </div>
-
-  <div class="travel-card" style="background:#ffebee;">
-    <div class="place">Chengdu, China 🌶️</div>
-    <div class="fact">Best food in the world! I fell in love with hotpot while studying at Sichuan University.</div>
-  </div>
-
-  <div class="travel-card" style="background:#e8f5e9;">
-    <div class="place">Atlanta, United States 🌳</div>
-    <div class="fact">Often called a “forest city.” Discovered incredible Korean food in Duluth.</div>
-  </div>
-
-</div>
-
----
-
-### 🌏 Countries I’ve Traveled To
-
-<div class="travel-grid">
-
-  <div class="travel-card" style="background:#f3e5f5;">
-    <div class="place">United Kingdom ☔</div>
-    <div class="fact">Rainy country, but I had the best weather during my visit — lucky me! Thanks, UK!</div>
-  </div>
-
-  <div class="travel-card" style="background:#fffde7;">
-    <div class="place">Singapore 🔥</div>
-    <div class="fact">Hot hot! And I even won 25 bucks in the casino — unforgettable trip.</div>
-  </div>
-
-</div>
-
-
-
 ## Hello, World!
 
 <!-- Masonry Photo Wall -->
@@ -178,5 +98,79 @@ author_profile: true
 
 *This page reflects my personal thoughts and experiences. I believe that sharing our journeys helps us connect with others and build a more understanding community.* -->
 
+<!-- ## ✈️ Travel and Exploration
 
+<style>
+/* 双栏网格（小屏自动一栏） */
+.travel-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0,1fr));
+  gap:12px;
+  margin-bottom:20px;
+}
+@media (max-width: 720px){
+  .travel-grid{ grid-template-columns:1fr; }
+}
+
+/* 卡片基础样式 */
+.travel-card{
+  border-radius:10px;
+  padding:12px 14px;
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+.travel-card:hover{
+  box-shadow:0 6px 14px rgba(0,0,0,0.12);
+  transform: translateY(-1px);
+}
+
+/* 文本样式 */
+.travel-card .place{
+  font-size:1.02em;
+  color:#333;
+  margin-bottom:4px;
+}
+.travel-card .fact{
+  color:#555;
+  line-height:1.55;
+}
+</style>
+
+### 🌍 Places I’ve Lived
+
+<div class="travel-grid">
+
+  <div class="travel-card" style="background:#e3f2fd;">
+    <div class="place">Qingdao, China 🌊</div>
+    <div class="fact">My hometown by the sea — amazing seafood, cool summers, and unforgettable memories.</div>
+  </div>
+
+  <div class="travel-card" style="background:#ffebee;">
+    <div class="place">Chengdu, China 🌶️</div>
+    <div class="fact">Best food in the world! I fell in love with hotpot while studying at Sichuan University.</div>
+  </div>
+
+  <div class="travel-card" style="background:#e8f5e9;">
+    <div class="place">Atlanta, United States 🌳</div>
+    <div class="fact">Often called a “forest city.” Discovered incredible Korean food in Duluth.</div>
+  </div>
+
+</div>
+
+---
+
+### 🌏 Countries I’ve Traveled To
+
+<div class="travel-grid">
+
+  <div class="travel-card" style="background:#f3e5f5;">
+    <div class="place">United Kingdom ☔</div>
+    <div class="fact">Rainy country, but I had the best weather during my visit — lucky me! Thanks, UK!</div>
+  </div>
+
+  <div class="travel-card" style="background:#fffde7;">
+    <div class="place">Singapore 🔥</div>
+    <div class="fact">Hot hot! And I even won 25 bucks in the casino — unforgettable trip.</div>
+  </div>
+
+</div> -->
 
