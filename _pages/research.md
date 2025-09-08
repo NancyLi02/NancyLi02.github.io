@@ -5,63 +5,55 @@ permalink: /research/
 author_profile: true
 ---
 
-## Current Research
+## Publications (*equal contribution)
 
-I am currently pursuing my Master's degree at Georgia Tech, focusing on advanced topics in robotics and control systems. My research interests span theoretical foundations and practical applications in multi-robot systems.
+{% include pub_card.html
+  id="oath"
+  title="LLM-Guided Obstacle-Aware Task Assignment and Planning from Human Instructions"
+  authors="Nan Li, Jiming Ren, Haris Miller, Samuel Coogan, Karen M. Feigh, and Ye Zhao"
+  venue="Preprint"
+  year="2025"
+  img="/images/isaac_sim_teaser.jpg"
+  img_alt="LLM-OATH demo"
+  abstract="Multi-Agent Task Assignment and Planning (MATP) is particularly challenging in large-scale, obstacle-rich, and dynamic environments. As the number of robots and tasks increases, conventional methods often struggle with scalability, realistic spatial reasoning, and adaptability to failures. To address these issues, we propose LLM-OATH: a novel framework designed for heterogeneous robot teams for LLM-guided obstacle-aware task assignment and planning from human instruction. LLM-OATH combines two strategies to enable obstacle-aware task allocation. First, it constructs an adaptive Halton sequence map, which adjusts sample point density based on obstacle distribution. Second, it applies a multi-source Dijkstra algorithm on the adaptive map to compute task-to-task distance matrices that explicitly incorporate obstacle information, enabling more accurate task allocation. For task assignment, we introduce a cluster-auction-task selection architecture, which improves scalability while maintaining optimality in task allocation. For path planning, we use a dynamic path planning algorithm. Unlike prior work that applies large language models (LLMs) only during task interpretation before execution, LLM-OATH integrates the LLM throughout the entire MATP process. During execution, it continuously translates human commands into formal specifications and routes them to the appropriate modules, enabling real-time responsiveness to dynamic human intent. We validate LLM-OATH in Isaac Lab simulations, demonstrating significant improvements in scalability, resilience to dynamic changes, and task completion efficiency compared to state-of-the-art MATP baselines."
+  paper=""
+  website=""
+  code=""
+%}
 
-## Research Experience
+{% include pub_card.html
+  id="resilient"
+  title="A Hierarchically Integrated Framework for Resilient Task Allocation and Planning in Heterogeneous Multi-Robot Systems"
+  authors="Nan Li, Haris Miller, Jiming Ren, Alagappan Swaminathan, Samuel Coogan, Karen M. Feigh, and Ye Zhao"
+  venue="IEEE ICRA Workshop on Robust Planning and Decision-Making for Autonomous Systems"
+  year="2025"
+  video="https://www.youtube.com/embed/7pSYnkK5tDU"
+  video_external="https://youtu.be/7pSYnkK5tDU"
+  abstract="Traditional methods for task allocation and planning in multi-robot teams are typically offline, assuming that all tasks are known in advance and assigned before mission execution. However, real-world environments require resilient planning algorithms capable of handling unexpected scenarios such as task failures, unstructured environments, robot failures, and low battery levels. To address these challenges, we propose a resilient task allocation and planning framework tailored for heterogeneous multi-robot systems, specifically incorporating drones and ground robots such as Turtlebots. The framework combines a high-level task allocation and planning module with a mid-level behavior tree architecture to manage unexpected events during execution. The task allocation problem involves assigning different types of tasks to a heterogeneous robot team, where each robot has specific capabilities suited to certain tasks. The environment includes both known and unknown elements, such as static and dynamic obstacles (e.g., walls, bushes), adding uncertainty to planning and execution. The goal is to improve resilience to unexpected situations while keeping mission time short. A video has been prepared to present our algorithm, supplementary technical details, and preliminary experimental results."
+  paper="/files/ICRA_workshop.pdf"
+  website="https://sites.google.com/view/robust-planning-icra2025-ws/home?authuser=0"
+%}
 
-### Design and Integration of Automatic Reagent Preparation Machine
-**Huaxi Medical Robot Research Institute** \| **Project Leader** \| Sichuan University \| Aug. 2023 - Jun. 2024
+{% include pub_card.html
+  id="tiltrotor"
+  title="Singularity Free Dynamic Control Allocation for Tilt-rotor Multirotor UAVs"
+  authors="Nan Li, Hao He, et al."
+  venue="IEEE CASE"
+  year="2023"
+  img="/images/ieee_case.png"
+  img_alt="CASE figure"
+  abstract="Tilt-rotor multirotor unmanned aerial vehicles (UAVs) provide flexible flight capability and pose-omnidirectionality. Although numerous control allocation algorithms have been presented with relatively good reliability, some singularity configurations of tilt-rotor UAVs can cause the algorithm to fail in generating a stable solution. This paper proposes a singularity-free dynamic control allocation algorithm that improves the stability of tilt-rotor multirotor UAVs in 6 degrees of freedom (DOFs). The control allocation is formulated as a constrained optimization problem by introducing inequality constraints derived from singular configurations. A barrier function is embedded into the objective function for constraints enforcement. The Lagrange function is then used to form the unconstrained optimization objective function. A Lyapunov-like function is proven to be negative semidefinite, time invariant and bounded. Through Barbalat's lemma, the algorithm is uniformly globally stable. Simulation results obtained from trajectory tracking at singularities of the tilt-rotor multirotor UAVs in 6 DOFs demonstrate the validity of the proposed dynamic control allocation approach."
+  paper="https://ieeexplore.ieee.org/abstract/document/10260455"
+%}
 
-- Designed specific components of the reagent machine, including workstation for holding components, injection unit, and cap processing unit
-- Applied DH parameters to model robot arm kinematics, enabling precise position calculation based on input joint angles
-- Employed Monte Carlo method in MATLAB to determine and visualize robot arm workspace
-- Developed user-friendly human-computer interaction interface using QT Creator for robot arm control
-- Implemented Arduino-based system integration for communication and coordination between reagent machine components
-
-### A Segmented Dynamic Movement Primitives-Based Gait Assistive Strategy for Soft Ankle Exosuit
-**Huaxi Medical Robot Research Institute** \| Sichuan University \| Mar. 2023 - Aug. 2023
-
-- Analyzed different gait planning algorithms and evaluated their advantages and disadvantages
-- Implemented DMP (Dynamic Movement Primitives) gait planning approach for soft exoskeleton design
-- Developed adaptive DMP gait planning system using reinforcement learning and optimization algorithms
-- Enhanced system adaptability for different users through machine learning techniques
-
-### Singularity Free Dynamic Control Allocation for Tilt-rotor Multirotor UAVs
-**Supervised by Prof. Qi Lu** \| Sichuan University \| Jan. 2022 - Mar. 2023
-
-- Developed barrier function methodology to convert inequality constraints to equation constraints, avoiding singularity problems
-- Formulated control allocation as optimization problem using Lagrange multipliers
-- Proved stability of adaptive algorithm using Barbalat's Lemma
-- Conducted trajectory simulation for six-rotor tilt-rotor UAV singularity avoidance
-
-## Research Skills
-
-### Technical Skills
-- **Programming**: MATLAB, Python, C++, Arduino
-- **Software Tools**: QT Creator, Simulink, SolidWorks
-- **Control Theory**: Adaptive Control, Optimization, Dynamic Systems
-- **Robotics**: Kinematics, Dynamics, Path Planning
-- **Machine Learning**: Reinforcement Learning, Optimization Algorithms
-
-### Methodologies
-- Mathematical modeling and analysis
-- Simulation and validation
-- Hardware-software integration
-- System design and optimization
-- Experimental validation and testing
-
-## Research Interests
-
-### Multi-Robot Systems
-Exploring coordination strategies, distributed control, and swarm intelligence for multiple robotic agents working collaboratively.
-
-### Control Systems
-Developing advanced control algorithms, adaptive control strategies, and optimization techniques for complex dynamic systems.
-
-### Unmanned Aerial Vehicles
-Investigating flight dynamics, control allocation, and autonomous navigation for various UAV configurations.
-
-### Medical Robotics
-Applying robotics principles to medical applications, including assistive devices and automated medical equipment.
+{% include pub_card.html
+  id="exosuit"
+  title="A Segmented Dynamic Movement Primitives-Based Gait Assistive Strategy for Soft Ankle Exosuit"
+  authors="Fashu Xu, Wenjun Huang, Hao He, Nan Li, Hongchen He & Kang Li"
+  venue="International Conference on Intelligent Robotics and Applications"
+  year="2023"
+  img="/images/exoskeleton.png"
+  img_alt="Soft exosuit"
+  abstract="The soft exosuit has been proven to improve the pilot’s walking ability and reduce metabolic consumption, yet its gait assistance strategy still suffers from insufficient personalized adaptation. This paper proposes a Segmented Dynamic Movement Primitives (SDMPs)-based gait assistive strategy. A gait detection algorithm divides a complete gait cycle into four segments, and independent DMPs learn each segment. The normal gait trajectory is referenced and the personalized gait is generated with the spatial-temporal parameters of each DMP automatically adjusted according to sensor data. Experimental results show that the gait of SDMPs is superior to those generated by the traditional method and vanilla DMPs. Force feedback indicates that the gait generated using SDMPs can quickly pull the joint to the desired position in the plantar flexion phase and then quickly complete tension release, which is better than other methods. This method can serve as a new personalized gait assistance strategy for soft ankle exosuits."
+  paper="https://link.springer.com/chapter/10.1007/978-981-99-6480-2_38"
+%}
