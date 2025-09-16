@@ -7,9 +7,9 @@
 
 # Site Settings
 locale: "en-US"
-title: "Nan Li 黎楠"
+title: "Nan Li"
 title_separator: "-"
-name: &name 'Nan Li (黎楠)'
+name: &name 'Nan Li'
 description: &description "Nan Li - M.S. Student in Mechanical Engineering at Georgia Tech"
 url: https://NancyLi02.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
