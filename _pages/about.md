@@ -9,9 +9,9 @@ redirect_from:
 
 Hello! I am **Nan Li** (in Chinese: <span style="font-family: 'KaiTi', '楷体', serif; font-size: 1.2em;">黎楠</span>), a M.S. student in [Mechanical Engineering](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I am fortunate to be advised by Prof. Ye Zhao in the [LiDAR Lab](https://lab-idar.gatech.edu/). I received my bachelor's degree in Mechanical Engineering from [Sichuan University](https://www.scu.edu.cn/).  
 
-My current research focuses on **multi-robot systems**, where I develop scalable and efficient methods to address multi-agent cooperation problems. Now, I am particularly interested in applying **reinforcement learning (RL)** to design task allocation and path planning algorithms for multi-agent systems. I am also exploring how large language models (LLMs) can provide humans with better instructions in multi-robot systems.  
+My current research focuses on **multi-robot systems**, where I develop scalable and efficient methods to address multi-agent cooperation problems. Now, I am particularly interested in leveraging **large language models (LLMs)** and **reinforcement learning (RL)** to design task allocation and path planning algorithms for multi-agent systems.
 
-🚀 **I plan to apply for Ph.D. programs in Fall 2026.**  If there are opportunities, I would be very happy to connect. 🤗
+🚀 **I am currently applying for Ph.D. programs for Fall 2026.**  If there are opportunities, I would be very happy to connect. 🤗
 
 ## 📰 News!
 
@@ -42,6 +42,10 @@ My current research focuses on **multi-robot systems**, where I develop scalable
 </style>
 
 <div class="timeline">
+
+<div class="timeline-item">
+  <b>2025.10</b> — We submitted our work <b>Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming</b> to <b>T-ASE</b>! Fingers crossed!
+</div>
 
 <div class="timeline-item">
   <b>2025.04</b> — Our work on multi-agent task allocation and planning has been accepted by <b>ICRA 2025 Workshop</b>! 🎉 See you in Atlanta!
