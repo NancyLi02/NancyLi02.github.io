@@ -13,6 +13,7 @@ name: &name 'Nan Li'
 description: &description "Nan Li - M.S. Student in Mechanical Engineering at Georgia Tech"
 url: https://NancyLi02.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
+last_updated: "April 13, 2026" # shown in site footer; update when you change content
 repository: "NancyLi02/NancyLi02.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
