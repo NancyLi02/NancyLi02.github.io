@@ -24,57 +24,53 @@ My research focuses on **multi-robot systems**, where I develop scalable and eff
 .hero-cta{
   display:flex; gap:14px; align-items:flex-start;
   margin:26px 0;
-  padding:18px 20px;
-  border-radius:16px;
-  color:#fff;
-  background:linear-gradient(120deg,#6366f1 0%,#7c3aed 45%,#c026d3 100%);
-  box-shadow:0 18px 40px -18px rgba(124,58,237,.6);
+  padding:18px 22px;
+  border-radius:18px;
+  color:#1d1d1f;
+  background:#f5f5f7;
+  border:1px solid #e8e8ed;
   line-height:1.6;
 }
-.hero-cta__icon{ font-size:1.6em; line-height:1; }
-.hero-cta a{ color:#fff; text-decoration:underline; }
+.hero-cta__icon{ font-size:1.5em; line-height:1; }
+.hero-cta b{ font-weight:600; }
+.hero-cta a{ color:#0066cc; text-decoration:none; }
+.hero-cta a:hover{ text-decoration:underline; }
 
 .timeline{
   position:relative;
   margin:1.6em 0 .5em;
-  padding-left:34px;
+  padding-left:30px;
 }
 .timeline::before{
-  content:""; position:absolute; left:6px; top:6px; bottom:6px;
-  width:3px; border-radius:3px;
-  background:linear-gradient(#6366f1,#7c3aed,#c026d3);
+  content:""; position:absolute; left:5px; top:8px; bottom:8px;
+  width:1px;
+  background:#d2d2d7;
 }
 .timeline-item{
   position:relative;
-  margin-bottom:20px;
-  padding:12px 16px;
-  border-radius:12px;
-  background:#fff;
-  border:1px solid rgba(28,27,41,.08);
-  box-shadow:0 2px 10px rgba(38,26,84,.05);
+  margin-bottom:16px;
+  padding:14px 18px;
+  border-radius:14px;
+  background:#f5f5f7;
   line-height:1.6;
-  transition:transform .3s cubic-bezier(.22,.61,.36,1), box-shadow .3s ease;
+  color:#1d1d1f;
+  transition:background .25s ease;
 }
-.timeline-item:hover{
-  transform:translateX(4px);
-  box-shadow:0 14px 34px -16px rgba(66,44,140,.35);
-}
+.timeline-item:hover{ background:#efeff1; }
 .timeline-item::before{
   content:"";
   position:absolute;
-  left:-33px; top:18px;
-  width:14px; height:14px;
+  left:-29px; top:20px;
+  width:9px; height:9px;
   border-radius:50%;
-  background:#fff;
-  border:3px solid #7c3aed;
-  box-shadow:0 0 0 4px rgba(124,58,237,.15);
+  background:#1d1d1f;
 }
-.timeline-item b{ color:#6d28d9; }
+.timeline-item b{ color:#1d1d1f; font-weight:600; }
 .timeline-item .tl-badge{
   display:inline-block; margin-left:6px;
-  font-size:.72em; font-weight:700; letter-spacing:.03em;
-  padding:2px 8px; border-radius:999px;
-  background:linear-gradient(120deg,#6366f1,#c026d3); color:#fff;
+  font-size:.72em; font-weight:600; letter-spacing:.02em;
+  padding:2px 9px; border-radius:999px;
+  background:#fff; border:1px solid #0066cc; color:#0066cc;
   vertical-align:middle;
 }
 </style>

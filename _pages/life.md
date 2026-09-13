@@ -15,18 +15,17 @@ author_profile: true
 </p>
 
 <style>
-  /* ---- Hobby pills ---- */
+  /* ---- Hobby pills (minimal) ---- */
   .hobbies{ display:flex; flex-wrap:wrap; gap:10px; margin:.6em 0 1.4em; }
   .hobby{
-    padding:8px 16px; border-radius:999px; font-size:1.02em; font-weight:600;
-    color:#fff; background:linear-gradient(120deg,#6366f1,#7c3aed 55%,#c026d3);
-    box-shadow:0 10px 24px -12px rgba(124,58,237,.7);
-    transition:transform .25s cubic-bezier(.22,.61,.36,1);
+    padding:7px 15px; border-radius:980px; font-size:.98em; font-weight:500;
+    color:#1d1d1f; background:#f5f5f7; border:1px solid #e8e8ed;
+    transition:background .2s ease;
   }
-  .hobby:hover{ transform:translateY(-3px) scale(1.03); }
+  .hobby:hover{ background:#ebebed; }
 
-  /* ---- Masonry photo wall ---- */
-  .masonry { column-count: 4; column-gap: 14px; }
+  /* ---- Masonry photo wall (natural aspect ratios, no cropping) ---- */
+  .masonry { column-count: 3; column-gap: 14px; }
   @media (max-width: 1024px) { .masonry { column-count: 2; } }
   @media (max-width: 640px)  { .masonry { column-count: 1; } }
 
@@ -36,78 +35,53 @@ author_profile: true
     display: inline-block;
     margin: 0 0 14px;
     border-radius: 14px;
-    box-shadow: 0 8px 26px -12px rgba(38,26,84,.4);
     break-inside: avoid;
   }
   .masonry img {
     height: auto;
-    transition: transform 0.4s cubic-bezier(.22,.61,.36,1), box-shadow .4s ease;
+    border: 1px solid #e8e8ed;
+    transition: transform 0.35s cubic-bezier(.4,0,.2,1);
   }
-  .masonry img:hover {
-    transform: scale(1.04);
-    box-shadow: 0 22px 46px -16px rgba(66,44,140,.5);
-    z-index: 1;
-  }
+  .masonry img:hover { transform: scale(1.015); }
+
   .continue-card {
-    background: linear-gradient(135deg,#6366f1,#c026d3);
-    color: #fff; font-size: 1.15em; font-style: italic; font-weight:600;
-    text-align: center; padding: 56px 20px;
+    background: #f5f5f7;
+    color: #6e6e73; font-size: 1.02em; font-style: italic;
+    text-align: center; padding: 52px 20px;
     display: flex; align-items: center; justify-content: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e8e8ed;
   }
-  .continue-card:hover { transform: scale(1.03); box-shadow: 0 18px 40px -16px rgba(124,58,237,.6); }
 
-  /* ---- Luka growth gallery ---- */
+  /* ---- Luka gallery ---- */
   .luka-intro{
-    display:flex; gap:14px; align-items:center;
-    padding:16px 20px; margin:14px 0 22px;
-    border-radius:16px;
-    background:linear-gradient(120deg,rgba(99,102,241,.10),rgba(192,38,211,.10));
-    border:1px solid rgba(124,58,237,.18);
-    line-height:1.6;
+    display:flex; gap:16px; align-items:flex-start;
+    padding:18px 22px; margin:14px 0 22px;
+    border-radius:18px;
+    background:#f5f5f7; border:1px solid #e8e8ed;
+    line-height:1.6; color:#1d1d1f;
   }
-  .luka-intro .paw{ font-size:2em; line-height:1; }
+  .luka-intro .paw{ font-size:1.9em; line-height:1; }
+  .luka-intro b{ font-weight:600; }
+  .luka-intro .bday{ color:#6e6e73; font-size:.95em; margin-top:4px; }
 
-  .luka-grid{
-    display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
-    gap:16px; margin-top:8px;
+  .luka-wall{ column-count:3; column-gap:14px; }
+  @media (max-width:1024px){ .luka-wall{ column-count:2; } }
+  @media (max-width:640px){ .luka-wall{ column-count:1; } }
+
+  .luka-wall figure{
+    margin:0 0 16px; break-inside:avoid; display:inline-block; width:100%;
   }
-  .luka-card{
-    position:relative; border-radius:16px; overflow:hidden;
-    box-shadow:0 10px 28px -14px rgba(38,26,84,.45);
-    aspect-ratio: 3/4;
-    transition:transform .4s cubic-bezier(.22,.61,.36,1), box-shadow .4s ease;
+  .luka-wall img{
+    width:100%; height:auto; display:block;
+    border-radius:14px; border:1px solid #e8e8ed;
+    transition:transform .35s cubic-bezier(.4,0,.2,1);
   }
-  .luka-card img{
-    width:100%; height:100%; object-fit:cover; display:block;
-    transition:transform .5s cubic-bezier(.22,.61,.36,1);
+  .luka-wall figure:hover img{ transform:scale(1.015); }
+  .luka-wall figcaption{
+    margin-top:8px; font-size:.9em; color:#6e6e73; font-weight:500;
+    padding-left:2px;
   }
-  .luka-card:hover{ transform:translateY(-6px); box-shadow:0 26px 54px -18px rgba(66,44,140,.55); }
-  .luka-card:hover img{ transform:scale(1.08); }
-  .luka-card .cap{
-    position:absolute; left:0; right:0; bottom:0;
-    padding:26px 14px 12px;
-    background:linear-gradient(to top,rgba(20,10,45,.82),transparent);
-    color:#fff; font-weight:700; font-family:'Space Grotesk',sans-serif;
-    letter-spacing:.02em;
-  }
-  .luka-card .cap small{ display:block; font-weight:500; opacity:.85; font-size:.8em; }
 </style>
-
-## 🐶 Meet Luka
-
-<div class="luka-intro">
-  <span class="paw">🐾</span>
-  <div>This is <b>Luka</b>, my little golden retriever and my favorite research break. 🥰 Here's a look at him growing up, month by month.</div>
-</div>
-
-<div class="luka-grid">
-  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/2m.jpg" alt="Luka at 2 months"><div class="cap">2 Months<small>tiny & fluffy</small></div></div>
-  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/3m.jpg" alt="Luka at 3 months"><div class="cap">3 Months<small>curious explorer</small></div></div>
-  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/4month.jpg" alt="Luka at 4 months"><div class="cap">4 Months<small>growing fast</small></div></div>
-  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/5m.jpg" alt="Luka at 5 months"><div class="cap">5 Months<small>full of energy</small></div></div>
-  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/6m.jpg" alt="Luka at 6 months"><div class="cap">6 Months<small>handsome boy</small></div></div>
-</div>
 
 ## Hello, World!
 
@@ -126,6 +100,23 @@ author_profile: true
   <img loading="lazy" decoding="async" src="/images/4.jpg" alt="4">
   <img loading="lazy" decoding="async" src="/images/5.jpg" alt="5">
 
-  <!-- To be continued 卡片 -->
   <div class="continue-card">…to be continued</div>
+</div>
+
+## 🐶 Meet Luka
+
+<div class="luka-intro">
+  <span class="paw">🐾</span>
+  <div>
+    This is <b>Luka</b>, my golden retriever and my favorite research break. 🥰 Here he is growing up, month by month.
+    <div class="bday">🎂 Born March 20, 2026 &nbsp;·&nbsp; Based in Atlanta — if you have a pup too, let's set up a <b>playdate with Luka</b>! 🐕</div>
+  </div>
+</div>
+
+<div class="luka-wall">
+  <figure><img loading="lazy" decoding="async" src="/images/Luka/2m.jpg" alt="Luka at 2 months"><figcaption>2 months</figcaption></figure>
+  <figure><img loading="lazy" decoding="async" src="/images/Luka/3m.jpg" alt="Luka at 3 months"><figcaption>3 months</figcaption></figure>
+  <figure><img loading="lazy" decoding="async" src="/images/Luka/4month.jpg" alt="Luka at 4 months"><figcaption>4 months</figcaption></figure>
+  <figure><img loading="lazy" decoding="async" src="/images/Luka/5m.jpg" alt="Luka at 5 months"><figcaption>5 months</figcaption></figure>
+  <figure><img loading="lazy" decoding="async" src="/images/Luka/6m.jpg" alt="Luka at 6 months"><figcaption>6 months</figcaption></figure>
 </div>
