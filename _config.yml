@@ -10,10 +10,10 @@ locale: "en-US"
 title: "Nan Li"
 title_separator: "-"
 name: &name 'Nan Li'
-description: &description "Nan Li - M.S. Student in Mechanical Engineering at Georgia Tech"
+description: &description "Nan Li - Ph.D. Student in Mechanical Engineering at Georgia Tech"
 url: https://NancyLi02.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
-last_updated: "April 13, 2026" # shown in site footer; update when you change content
+last_updated: "September 13, 2026" # shown in site footer; update when you change content
 repository: "NancyLi02/NancyLi02.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
@@ -81,10 +81,11 @@ analytics:
 author:
   name: "Nan Li"
   avatar: "profile.jpg"
-  bio: "M.S. Student in ME @ GT"
+  bio: "Ph.D. Student in ME @ GT"
   location: "Atlanta, Georgia"
   employer:
   email: "nanli02@outlook.com"
+  googlescholar: "https://scholar.google.com/citations?user=i37975QAAAAJ&hl=en"
   linkedin: "nan-li-967034368"
   researchgate:
   uri:

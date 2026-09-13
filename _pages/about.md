@@ -7,48 +7,94 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am **Nan Li** (in Chinese: <span style="font-family: 'KaiTi', '楷体', serif; font-size: 1.2em;">黎楠</span>), an incoming Ph.D. student in [Robotics (ME)](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I am fortunate to be advised by Prof. Ye Zhao in the [LiDAR Lab](https://lab-idar.gatech.edu/) and [Prof. Seung-Kyum Choi](https://www.me.gatech.edu/faculty/choi). I received my bachelor's degree in Mechanical Engineering from [Sichuan University](https://www.scu.edu.cn/).  
+Hello! I am **Nan Li** (in Chinese: <span style="font-family: 'KaiTi', '楷体', serif; font-size: 1.2em;">黎楠</span>), a Ph.D. student in [Robotics (ME)](https://www.me.gatech.edu/) at [Georgia Tech](https://www.gatech.edu/). I am fortunate to be co-advised by [Prof. Seung-Kyum Choi](https://www.me.gatech.edu/faculty/choi) and Prof. Ye Zhao (in the [LiDAR Lab](https://lab-idar.gatech.edu/)). I received my bachelor's degree in Mechanical Engineering from [Sichuan University](https://www.scu.edu.cn/).
 
-My research focuses on **heterogeneous multi-robot teaming**, where I develop scalable and efficient methods for **task allocation** and **path planning** in multi-agent systems. I am particularly interested in leveraging **large language models (LLMs)** and **reinforcement learning (RL)** to address multi-robot cooperation problems.
+My research focuses on **multi-robot systems**, where I develop scalable and efficient methods for multi-agent cooperation. My latest project is to develop a **fully decentralized multi-robot system for collaborative transport using World Action Models** — enabling robot teams to perceive, reason, and act together without any central coordinator.
 
-🚀 **I will start my Ph.D. journey in Robotics (ME) at Georgia Tech in Summer 2026!**
+<div class="hero-cta">
+  <span class="hero-cta__icon">🤝</span>
+  <div>
+    <b>Let's connect!</b> If you're excited about decentralized multi-robot systems, world/action models, or embodied collaboration, I'd love to chat and explore ideas together. 🚀
+  </div>
+</div>
 
 ## 📰 News!
 
 <style>
-.timeline {
-  position: relative;
-  margin: 2em 0;
-  padding-left: 40px;
-  border-left: 3px solid #6a1b9a; /* 紫色竖线 */
+.hero-cta{
+  display:flex; gap:14px; align-items:flex-start;
+  margin:26px 0;
+  padding:18px 20px;
+  border-radius:16px;
+  color:#fff;
+  background:linear-gradient(120deg,#6366f1 0%,#7c3aed 45%,#c026d3 100%);
+  box-shadow:0 18px 40px -18px rgba(124,58,237,.6);
+  line-height:1.6;
 }
-.timeline-item {
-  margin-bottom: 20px;
-  font-family: 'Times New Roman', Times, serif;
+.hero-cta__icon{ font-size:1.6em; line-height:1; }
+.hero-cta a{ color:#fff; text-decoration:underline; }
+
+.timeline{
+  position:relative;
+  margin:1.6em 0 .5em;
+  padding-left:34px;
 }
-.timeline-item b {
-  color: #6a1b9a; /* 时间点颜色 */
+.timeline::before{
+  content:""; position:absolute; left:6px; top:6px; bottom:6px;
+  width:3px; border-radius:3px;
+  background:linear-gradient(#6366f1,#7c3aed,#c026d3);
 }
-.timeline-item::before {
-  content: "";
-  position: absolute;
-  left: -9px;
-  background: #6a1b9a;
-  border-radius: 50%;
-  width: 14px;
-  height: 14px;
-  margin-top: 6px;
+.timeline-item{
+  position:relative;
+  margin-bottom:20px;
+  padding:12px 16px;
+  border-radius:12px;
+  background:#fff;
+  border:1px solid rgba(28,27,41,.08);
+  box-shadow:0 2px 10px rgba(38,26,84,.05);
+  line-height:1.6;
+  transition:transform .3s cubic-bezier(.22,.61,.36,1), box-shadow .3s ease;
+}
+.timeline-item:hover{
+  transform:translateX(4px);
+  box-shadow:0 14px 34px -16px rgba(66,44,140,.35);
+}
+.timeline-item::before{
+  content:"";
+  position:absolute;
+  left:-33px; top:18px;
+  width:14px; height:14px;
+  border-radius:50%;
+  background:#fff;
+  border:3px solid #7c3aed;
+  box-shadow:0 0 0 4px rgba(124,58,237,.15);
+}
+.timeline-item b{ color:#6d28d9; }
+.timeline-item .tl-badge{
+  display:inline-block; margin-left:6px;
+  font-size:.72em; font-weight:700; letter-spacing:.03em;
+  padding:2px 8px; border-radius:999px;
+  background:linear-gradient(120deg,#6366f1,#c026d3); color:#fff;
+  vertical-align:middle;
 }
 </style>
 
 <div class="timeline">
 
 <div class="timeline-item">
-  <b>2026.02</b> — Admitted to <b>Georgia Tech Robotics (ME) Ph.D. program</b>! 🎉 I will start my Ph.D. journey in Summer 2026!
+  <b>2026.09</b> — Our paper <b>OATH: Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming</b> has been <b>accepted by IEEE T-ASE</b>! <span class="tl-badge">Accepted</span> 🎉
 </div>
 
 <div class="timeline-item">
-  <b>2025.10</b> — We submitted our work <b>Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming</b> to <b>T-ASE</b>! Fingers crossed!
+  <b>2026.05</b> — I officially started my <b>Ph.D.</b> journey at <b>Georgia Tech</b>! 🎓 Excited for this new chapter in multi-robot research.
+</div>
+
+<div class="timeline-item">
+  <b>2026.02</b> — Admitted to the <b>Georgia Tech Robotics (ME) Ph.D. program</b>! 🎉
+</div>
+
+<div class="timeline-item">
+  <b>2025.10</b> — We submitted our work <b>Adaptive Obstacle-Aware Task Assignment and Planning for Heterogeneous Robot Teaming</b> to <b>T-ASE</b>!
 </div>
 
 <div class="timeline-item">
@@ -60,7 +106,7 @@ My research focuses on **heterogeneous multi-robot teaming**, where I develop sc
 </div>
 
 <div class="timeline-item">
-  <b>2024.08</b> — Started my Master’s journey at <b>Georgia Tech</b>!
+  <b>2024.08</b> — Started my Master's journey at <b>Georgia Tech</b>!
 </div>
 
 <div class="timeline-item">
@@ -68,10 +114,7 @@ My research focuses on **heterogeneous multi-robot teaming**, where I develop sc
 </div>
 
 <div class="timeline-item">
-  <b>2024.04</b> — Accepted by <b>Georgia Tech</b> for Master’s program! Looking forward to new life in GT 🐝 Go Yellow Jackets!
+  <b>2024.04</b> — Accepted by <b>Georgia Tech</b> for Master's program! Looking forward to new life in GT 🐝 Go Yellow Jackets!
 </div>
 
 </div>
-
-
-  

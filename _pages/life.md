@@ -7,24 +7,26 @@ author_profile: true
 
 ## Hobbies
 
-<p>
-  <span style="background:#e8f0fe; color:#1a73e8; padding:6px 12px; border-radius:12px; margin-right:8px; font-size:1.05em;">
-    🥾 Hiking
-  </span>
-  <span style="background:#fce8e6; color:#d93025; padding:6px 12px; border-radius:12px; margin-right:8px; font-size:1.05em;">
-    🌍 Travel
-  </span>
+<p class="hobbies">
+  <span class="hobby">🥾 Hiking</span>
+  <span class="hobby">🌍 Travel</span>
+  <span class="hobby">📷 Photography</span>
+  <span class="hobby">🐶 Puppy Parent</span>
 </p>
 
-
-## Hello, World!
-
-<!-- Masonry Photo Wall -->
 <style>
-  .masonry {
-    column-count: 4;
-    column-gap: 12px;
+  /* ---- Hobby pills ---- */
+  .hobbies{ display:flex; flex-wrap:wrap; gap:10px; margin:.6em 0 1.4em; }
+  .hobby{
+    padding:8px 16px; border-radius:999px; font-size:1.02em; font-weight:600;
+    color:#fff; background:linear-gradient(120deg,#6366f1,#7c3aed 55%,#c026d3);
+    box-shadow:0 10px 24px -12px rgba(124,58,237,.7);
+    transition:transform .25s cubic-bezier(.22,.61,.36,1);
   }
+  .hobby:hover{ transform:translateY(-3px) scale(1.03); }
+
+  /* ---- Masonry photo wall ---- */
+  .masonry { column-count: 4; column-gap: 14px; }
   @media (max-width: 1024px) { .masonry { column-count: 2; } }
   @media (max-width: 640px)  { .masonry { column-count: 1; } }
 
@@ -32,145 +34,98 @@ author_profile: true
   .masonry .continue-card {
     width: 100%;
     display: inline-block;
-    margin: 0 0 12px;
-    border-radius: 8px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.12);
-    break-inside: avoid;   /* 防止 Masonry 切断元素 */
+    margin: 0 0 14px;
+    border-radius: 14px;
+    box-shadow: 0 8px 26px -12px rgba(38,26,84,.4);
+    break-inside: avoid;
   }
-
   .masonry img {
     height: auto;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s cubic-bezier(.22,.61,.36,1), box-shadow .4s ease;
   }
   .masonry img:hover {
-    transform: scale(1.05);
+    transform: scale(1.04);
+    box-shadow: 0 22px 46px -16px rgba(66,44,140,.5);
     z-index: 1;
   }
-
   .continue-card {
-    background: linear-gradient(135deg, #f5f5f5, #e9e9e9);
-    color: #555;
-    font-size: 1.2em;
-    font-style: italic;
-    text-align: center;
-    padding: 60px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: linear-gradient(135deg,#6366f1,#c026d3);
+    color: #fff; font-size: 1.15em; font-style: italic; font-weight:600;
+    text-align: center; padding: 56px 20px;
+    display: flex; align-items: center; justify-content: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
-  .continue-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  .continue-card:hover { transform: scale(1.03); box-shadow: 0 18px 40px -16px rgba(124,58,237,.6); }
+
+  /* ---- Luka growth gallery ---- */
+  .luka-intro{
+    display:flex; gap:14px; align-items:center;
+    padding:16px 20px; margin:14px 0 22px;
+    border-radius:16px;
+    background:linear-gradient(120deg,rgba(99,102,241,.10),rgba(192,38,211,.10));
+    border:1px solid rgba(124,58,237,.18);
+    line-height:1.6;
   }
+  .luka-intro .paw{ font-size:2em; line-height:1; }
+
+  .luka-grid{
+    display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr));
+    gap:16px; margin-top:8px;
+  }
+  .luka-card{
+    position:relative; border-radius:16px; overflow:hidden;
+    box-shadow:0 10px 28px -14px rgba(38,26,84,.45);
+    aspect-ratio: 3/4;
+    transition:transform .4s cubic-bezier(.22,.61,.36,1), box-shadow .4s ease;
+  }
+  .luka-card img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    transition:transform .5s cubic-bezier(.22,.61,.36,1);
+  }
+  .luka-card:hover{ transform:translateY(-6px); box-shadow:0 26px 54px -18px rgba(66,44,140,.55); }
+  .luka-card:hover img{ transform:scale(1.08); }
+  .luka-card .cap{
+    position:absolute; left:0; right:0; bottom:0;
+    padding:26px 14px 12px;
+    background:linear-gradient(to top,rgba(20,10,45,.82),transparent);
+    color:#fff; font-weight:700; font-family:'Space Grotesk',sans-serif;
+    letter-spacing:.02em;
+  }
+  .luka-card .cap small{ display:block; font-weight:500; opacity:.85; font-size:.8em; }
 </style>
 
+## 🐶 Meet Luka
+
+<div class="luka-intro">
+  <span class="paw">🐾</span>
+  <div>This is <b>Luka</b>, my little golden retriever and my favorite research break. 🥰 Here's a look at him growing up, month by month.</div>
+</div>
+
+<div class="luka-grid">
+  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/2m.jpg" alt="Luka at 2 months"><div class="cap">2 Months<small>tiny & fluffy</small></div></div>
+  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/3m.jpg" alt="Luka at 3 months"><div class="cap">3 Months<small>curious explorer</small></div></div>
+  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/4month.jpg" alt="Luka at 4 months"><div class="cap">4 Months<small>growing fast</small></div></div>
+  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/5m.jpg" alt="Luka at 5 months"><div class="cap">5 Months<small>full of energy</small></div></div>
+  <div class="luka-card"><img loading="lazy" decoding="async" src="/images/Luka/6m.jpg" alt="Luka at 6 months"><div class="cap">6 Months<small>handsome boy</small></div></div>
+</div>
+
+## Hello, World!
+
 <div class="masonry">
-  <img src="/images/UK1.jpg" alt="UK Travel 1">
-  <img src="/images/UK2.jpg" alt="UK Travel 2">
-  <img src="/images/SG1.jpg" alt="Singapore Travel 1">
-  <img src="/images/SG2.jpg" alt="Singapore Travel 2">
-  <img src="/images/1.jpg" alt="1">
-  <img src="/images/2.jpg" alt="2">
-  <img src="/images/3.jpg" alt="3">
-  <img src="/images/4.jpg" alt="4">
-  <img src="/images/5.jpg" alt="5">
+  <img loading="lazy" decoding="async" src="/images/HWI1.jpg" alt="Hawaii 1">
+  <img loading="lazy" decoding="async" src="/images/HWI2.jpg" alt="Hawaii 2">
+  <img loading="lazy" decoding="async" src="/images/cali1.jpg" alt="California">
+  <img loading="lazy" decoding="async" src="/images/olando1.jpg" alt="Orlando">
+  <img loading="lazy" decoding="async" src="/images/UK1.jpg" alt="UK Travel 1">
+  <img loading="lazy" decoding="async" src="/images/UK2.jpg" alt="UK Travel 2">
+  <img loading="lazy" decoding="async" src="/images/SG1.jpg" alt="Singapore Travel 1">
+  <img loading="lazy" decoding="async" src="/images/SG2.jpg" alt="Singapore Travel 2">
+  <img loading="lazy" decoding="async" src="/images/1.jpg" alt="1">
+  <img loading="lazy" decoding="async" src="/images/2.jpg" alt="2">
+  <img loading="lazy" decoding="async" src="/images/3.jpg" alt="3">
+  <img loading="lazy" decoding="async" src="/images/4.jpg" alt="4">
+  <img loading="lazy" decoding="async" src="/images/5.jpg" alt="5">
 
   <!-- To be continued 卡片 -->
   <div class="continue-card">…to be continued</div>
 </div>
-
-
-<!-- ## Favorite Poetry
-
-<p align="center" style="margin: 1em 0;">
-  <span style="font-family: 'KaiTi','楷体',serif; font-size: 1.25em; line-height: 1.8;">
-    竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
-  </span><br/>
-  <span style="color:#666; font-size: 0.95em;">—— 苏轼《定风波》</span><br/>
-  <em style="color:#555; font-size: 0.95em;">
-    "With cane and straw sandals I outpace a horse — why fear?<br/>
-    In a raincloak, I take life as it comes."
-  </em>
-</p> -->
-
-<!-- ---
-
-*This page reflects my personal thoughts and experiences. I believe that sharing our journeys helps us connect with others and build a more understanding community.* -->
-
-<!-- ## ✈️ Travel and Exploration
-
-<style>
-/* 双栏网格（小屏自动一栏） */
-.travel-grid{
-  display:grid;
-  grid-template-columns:repeat(2, minmax(0,1fr));
-  gap:12px;
-  margin-bottom:20px;
-}
-@media (max-width: 720px){
-  .travel-grid{ grid-template-columns:1fr; }
-}
-
-/* 卡片基础样式 */
-.travel-card{
-  border-radius:10px;
-  padding:12px 14px;
-  transition: box-shadow .25s ease, transform .25s ease;
-}
-.travel-card:hover{
-  box-shadow:0 6px 14px rgba(0,0,0,0.12);
-  transform: translateY(-1px);
-}
-
-/* 文本样式 */
-.travel-card .place{
-  font-size:1.02em;
-  color:#333;
-  margin-bottom:4px;
-}
-.travel-card .fact{
-  color:#555;
-  line-height:1.55;
-}
-</style>
-
-### 🌍 Places I’ve Lived
-
-<div class="travel-grid">
-
-  <div class="travel-card" style="background:#e3f2fd;">
-    <div class="place">Qingdao, China 🌊</div>
-    <div class="fact">My hometown by the sea — amazing seafood, cool summers, and unforgettable memories.</div>
-  </div>
-
-  <div class="travel-card" style="background:#ffebee;">
-    <div class="place">Chengdu, China 🌶️</div>
-    <div class="fact">Best food in the world! I fell in love with hotpot while studying at Sichuan University.</div>
-  </div>
-
-  <div class="travel-card" style="background:#e8f5e9;">
-    <div class="place">Atlanta, United States 🌳</div>
-    <div class="fact">Often called a “forest city.” Discovered incredible Korean food in Duluth.</div>
-  </div>
-
-</div>
-
----
-
-### 🌏 Countries I’ve Traveled To
-
-<div class="travel-grid">
-
-  <div class="travel-card" style="background:#f3e5f5;">
-    <div class="place">United Kingdom ☔</div>
-    <div class="fact">Rainy country, but I had the best weather during my visit — lucky me! Thanks, UK!</div>
-  </div>
-
-  <div class="travel-card" style="background:#fffde7;">
-    <div class="place">Singapore 🔥</div>
-    <div class="fact">Hot hot! And I even won 25 bucks in the casino — unforgettable trip.</div>
-  </div>
-
-</div> -->
-

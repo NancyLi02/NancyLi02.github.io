@@ -1,0 +1,11 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# OS / editor cruft
+.DS_Store
+
+# Local backups of full-resolution photos (not needed on the live site)
+images/**/_originals/

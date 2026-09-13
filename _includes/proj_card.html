@@ -9,17 +9,7 @@ Params:
 - video_external (optional) # external link button
 {% endcomment %}
 
-<style>
-.proj-card{display:flex;gap:14px;align-items:flex-start;margin:20px 0;padding:14px;border:1px solid #e8e8e8;border-radius:12px;background:#fff}
-.proj-media{flex:0 0 260px}
-.proj-media img,.proj-media iframe,.proj-media video{width:100%;height:auto;border-radius:10px;border:1px solid #eee}
-.proj-body{flex:1;line-height:1.5}
-.proj-title{font-size:1.05rem;font-weight:700;margin:0 0 6px}
-.proj-desc{font-size:0.95rem;color:#444}
-.proj-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
-.proj-links a{padding:6px 10px;border-radius:8px;border:1px solid #ddd;background:#f7f7f7;font-size:.9rem;text-decoration:none}
-@media (max-width:800px){.proj-card{flex-direction:column}.proj-media{flex:unset}}
-</style>
+<!-- Card styling centralized in /assets/css/custom.css -->
 
 <div class="proj-card" id="proj-{{ include.id }}">
   <div class="proj-media">
