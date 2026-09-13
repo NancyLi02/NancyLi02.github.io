@@ -23,54 +23,54 @@ My research focuses on **multi-robot systems**, where I develop scalable and eff
 <style>
 .hero-cta{
   display:flex; gap:14px; align-items:flex-start;
-  margin:26px 0;
-  padding:18px 22px;
-  border-radius:18px;
-  color:#1d1d1f;
-  background:#f5f5f7;
-  border:1px solid #e8e8ed;
+  margin:24px 0;
+  padding:16px 20px;
+  border-radius:16px;
+  color:#3a332c;
+  background:#f7f2ec;
+  border:1px solid #ebe3d8;
   line-height:1.6;
 }
-.hero-cta__icon{ font-size:1.5em; line-height:1; }
+.hero-cta__icon{ font-size:1.4em; line-height:1; }
 .hero-cta b{ font-weight:600; }
-.hero-cta a{ color:#0066cc; text-decoration:none; }
+.hero-cta a{ color:#96613d; text-decoration:none; }
 .hero-cta a:hover{ text-decoration:underline; }
 
 .timeline{
   position:relative;
-  margin:1.6em 0 .5em;
-  padding-left:30px;
+  margin:1.5em 0 .5em;
+  padding-left:28px;
 }
 .timeline::before{
-  content:""; position:absolute; left:5px; top:8px; bottom:8px;
+  content:""; position:absolute; left:4px; top:8px; bottom:8px;
   width:1px;
-  background:#d2d2d7;
+  background:#ddd2c4;
 }
 .timeline-item{
   position:relative;
-  margin-bottom:16px;
-  padding:14px 18px;
-  border-radius:14px;
-  background:#f5f5f7;
+  margin-bottom:14px;
+  padding:12px 16px;
+  border-radius:13px;
+  background:#f7f2ec;
   line-height:1.6;
-  color:#1d1d1f;
+  color:#3a332c;
   transition:background .25s ease;
 }
-.timeline-item:hover{ background:#efeff1; }
+.timeline-item:hover{ background:#f0e8de; }
 .timeline-item::before{
   content:"";
   position:absolute;
-  left:-29px; top:20px;
+  left:-28px; top:19px;
   width:9px; height:9px;
   border-radius:50%;
-  background:#1d1d1f;
+  background:#a9714b;
 }
-.timeline-item b{ color:#1d1d1f; font-weight:600; }
+.timeline-item b{ color:#7c4e2f; font-weight:600; }
 .timeline-item .tl-badge{
   display:inline-block; margin-left:6px;
   font-size:.72em; font-weight:600; letter-spacing:.02em;
   padding:2px 9px; border-radius:999px;
-  background:#fff; border:1px solid #0066cc; color:#0066cc;
+  background:#fff; border:1px solid #a9714b; color:#96613d;
   vertical-align:middle;
 }
 </style>
