@@ -14,7 +14,7 @@ My research focuses on **multi-robot systems**, where I develop scalable and eff
 <div class="hero-cta">
   <span class="hero-cta__icon">🤝</span>
   <div>
-    <b>Let's connect!</b> If you're excited about decentralized multi-robot systems, world/action models, or embodied collaboration, I'd love to chat and explore ideas together. 🚀
+    <b>Let's connect!</b> If you're excited about decentralized multi-robot systems, world action models, or embodied collaboration, I'd love to chat and explore ideas together. 🚀
   </div>
 </div>
 
